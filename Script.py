@@ -194,14 +194,16 @@ Nᴀᴍᴇ - {}"""
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 @Movie_Meadia
 <b> 
+🎖𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩🎖
 
-♻️𝙅𝙊𝙄𝙉 :- https://t.me/MM_Rockers
+@MM_Rockers </b>"""
 
-♻️ 𝙅𝙊𝙄𝙉 :- https://t.me/MM_Archives 
 
-♻️ 𝙅𝙊𝙄𝙉 :-https://t.me/MM_DVD_UPDATES
 
-𝑱𝑶𝑰𝑵🎗️𝑺𝑯𝑨𝐑𝐄🎗️𝐒𝐔𝐏𝐏𝐎𝐑𝐓🎗️ </b>"""
+
+
+
+ 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
