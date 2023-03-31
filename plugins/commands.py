@@ -31,7 +31,7 @@ async def start(client, message):
                     InlineKeyboardButton('⚙ 𝐀𝐁𝐎𝐔𝐓', callback_data='about'),
                     InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('📀 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 📀', url=CHNL_LNK)
+                    InlineKeyboardButton('🔗 𝐌𝐀𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🔗', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -55,7 +55,7 @@ async def start(client, message):
                     InlineKeyboardButton('⚙ 𝐀𝐁𝐎𝐔𝐓', callback_data='about'),
                     InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('📀 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 📀', url=CHNL_LNK)
+                    InlineKeyboardButton('🔗 𝐌𝐀𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🔗', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -104,7 +104,7 @@ async def start(client, message):
                     InlineKeyboardButton('⚙ 𝐀𝐁𝐎𝐔𝐓', callback_data='about'),
                     InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('📀 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 📀', url=CHNL_LNK)
+                    InlineKeyboardButton('🔗 𝐌𝐀𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🔗', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
