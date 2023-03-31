@@ -192,7 +192,7 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
-@Movie_Meadia
+
 <b> 
 🎖𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩🎖
 
