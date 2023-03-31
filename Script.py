@@ -192,16 +192,16 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
-
+@Movie_Meadia
 <b>
-╭─────── • ◆ • ───────╮
-🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/addtheme/DQ_The_File_Donor_Theme">Tᴏᴜᴄʜ</a>
-╰─────── • ◆ • ───────╯
 
-=========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : @DQ_The_File_Donor_Updates
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @DQ_The_File_Donor_Support
-=========== • ✠ • ===========</b>"""
+♻️𝙅𝙊𝙄𝙉 :- https://t.me/MM_Rockers
+
+♻️ 𝙅𝙊𝙄𝙉 :- https://t.me/MM_Archives 
+
+♻️ 𝙅𝙊𝙄𝙉 :-https://t.me/MM_DVD_UPDATES
+
+𝑱𝑶𝑰𝑵🎗️𝑺𝑯𝑨𝐑𝐄🎗️𝐒𝐔𝐏𝐏𝐎𝐑𝐓🎗️ </b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
