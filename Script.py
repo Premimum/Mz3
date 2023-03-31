@@ -192,8 +192,8 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
-@Movie_Meadia
-<b>
+
+<b> @Movie_Meadia
 
 ♻️𝙅𝙊𝙄𝙉 :- https://t.me/MM_Rockers
 
