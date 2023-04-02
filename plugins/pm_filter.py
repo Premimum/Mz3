@@ -944,7 +944,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('🎖 𝐍𝐄𝐖 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄 🎖', url="t.me/MM_DVD_UPDATES")
+                    InlineKeyboardButton('🎖 𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄 𝐔𝐏𝐃𝐀𝐓𝐄 🎖', url="t.me/MM_DVD_UPDATES")
                 ],[
                     InlineKeyboardButton('⚒ 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 ⚒', callback_data="owner_info"),
                     InlineKeyboardButton('🎥 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 🎥', url=GRP_LNK)
