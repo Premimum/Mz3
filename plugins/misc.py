@@ -211,4 +211,15 @@ async def imdb_callback(bot: Client, quer_y: CallbackQuery):
     await quer_y.answer()
         
 
-        
+@Client.on_message(filters.command("totalreq") & filters.user(ADMINS))
+async def total_requests(bot, message):
+    rju = await message.reply('Fetching stats..')
+    total = await db.get_all_req_count()
+    await rju.edit(f"Total Requests: {total}")
+
+
+@Client.on_message(filters.command("purgereq") & filters.user(ADMINS))
+async def purge_requests(bot, message):
+    r = await message.reply("`processing...`")
+    await db.delete_all_req()
+    await r.edit("**Req db Cleared**" )
