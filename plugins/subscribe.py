@@ -1,8 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# (c) @VysakhTG
 from pyrogram import Client, filters, enums
 from pyrogram.types import ChatJoinRequest
 from info import ADMINS, AUTH_CHANNEL
 from database.users_chats_db import db
-
 
 @Client.on_chat_join_request(filters.chat(AUTH_CHANNEL if AUTH_CHANNEL else "self"))
 async def join_reqs(client, join_req: ChatJoinRequest):
@@ -12,5 +14,7 @@ async def join_reqs(client, join_req: ChatJoinRequest):
     date = join_req.date
     await db.add_req(
         user_id=user_id,
-        username=username
+        first_name=first_name,
+        username=username,
+        date=date
         )
