@@ -94,7 +94,7 @@ class Database:
         chat = await self.grp.find_one({'id':int(chat)})
         return False if not chat else chat.get('chat_status')
    
-    async def add_req(self, user_id, username):
+    async def add_req(self, user_id, first_name, username, date):
         try:
             await self.req.insert_one({"_id": int(user_id),"user_id": int(user_id), "first_name": first_name, "username": username, "date": date})
         except:
