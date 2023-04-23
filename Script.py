@@ -191,11 +191,11 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
+<b>@Movie_Meadia</b> <code>{file_name}</code>
 
 <b> 🎖𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩🎖
 
-@MM_Rockers
+      @MM_Rockers
  </b>"""
 
 
