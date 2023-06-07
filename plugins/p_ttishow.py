@@ -38,10 +38,10 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('🎥 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 🎥', url=GRP_LNK),
-                    InlineKeyboardButton('🎥 𝐌𝐨𝐯𝐢𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎥', url=CHNL_LNK)
+                    InlineKeyboardButton('Gʀᴏᴜᴘ', url=GRP_LNK),
+                    InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                  ],[
-                    InlineKeyboardButton("📀 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 📀", url="https://t.me/MM_DVD_UPDATES")
+                    InlineKeyboardButton("Bᴏᴛ Cʀᴇᴀᴛᴏʀ", url="t.me/BotX_Creator")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -61,10 +61,10 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('🎥 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 🎥', url=GRP_LNK),
-                                                                           InlineKeyboardButton('🎥 𝐌𝐨𝐯𝐢𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎥', url=CHNL_LNK)
+                                                                           InlineKeyboardButton('Gʀᴏᴜᴘ', url=GRP_LNK),
+                                                                           InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                                                                         ],[
-                                                                           InlineKeyboardButton("📀 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 📀", url="https://t.me/MM_DVD_UPDATES")
+                                                                           InlineKeyboardButton("Bᴏᴛ Cʀᴇᴀᴛᴏʀ", url="t.me/BotX_Creator")
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
