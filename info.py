@@ -21,8 +21,8 @@ BOT_TOKEN = environ['BOT_TOKEN']
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/cb73f08a47268f438d313.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/82d3e11dbe63f2b85b5b1.jpg")
+PICS  = ( പരിസരം . നേടുക ( 'PICS' , 'https://graph.org/file/cb73f08a47268f438d313.jpg' )). വിഭജിക്കുക ()
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/154888c1bb6b4180b53a6.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/45355c19581818b68ba62.jpg")
 
@@ -55,9 +55,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "False")), False)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MM_Archives')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movie_Meadia')
-MSG_ALRT = environ.get('MSG_ALRT', 'Jᴏɪɴ @Movie_Meadia')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/All_Movi_es_Group')
+CHNL_LNK = environ.get('CHNL_LNK', 'http://t.me/+PW2iWBmgTlY0NzM1')
+MSG_ALRT = environ.get('MSG_ALRT', 'MZ Movies')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MMAssistBot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
