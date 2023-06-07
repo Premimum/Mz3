@@ -271,7 +271,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("🎦  𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃  🎦", url="t.me/MM_DVD_UPDATES")
+        InlineKeyboardButton("⚡️ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡️", url="https://t.me/Auto_Filter_MZBot")
     ])
     try:
         await query.edit_message_reply_markup(
