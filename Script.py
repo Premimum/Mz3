@@ -193,9 +193,9 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """
 <b>@Movie_Meadia</b> <code>{file_name}</code>
 
-<b> 
+<b> 🔰 𝗠𝗢𝗩𝗜𝗘 𝗚𝗥𝗢𝗨𝗣 🔰
 
-      
+      @All_Movi_es_Group
  </b>"""
 
 
