@@ -1439,7 +1439,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("🎦  𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃  🎦", url="t.me/MM_DVD_UPDATES")
+        InlineKeyboardButton("⚡️ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡️", url="https://t.me/Auto_Filter_MZBot")
     ])
 
     if offset != "":
