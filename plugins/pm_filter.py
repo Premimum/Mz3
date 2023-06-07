@@ -569,10 +569,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton('🎥 𝐆𝐫𝐨𝐮𝐩 🎥', url=GRP_LNK),
-                              InlineKeyboardButton('🎥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎥', url=CHNL_LNK)
+                              InlineKeyboardButton('Gʀᴏᴜᴘ', url=GRP_LNK),
+                              InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                            ],[
-                              InlineKeyboardButton("📀 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 📀", url="https://t.me/MM_DVD_UPDATES")
+                              InlineKeyboardButton("Bᴏᴛ Cʀᴇᴀᴛᴏʀ", url="t.me/BotX_Creator")
                              ]
                             ]
                         )
@@ -617,10 +617,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('🎥 𝐆𝐫𝐨𝐮𝐩 🎥', url=GRP_LNK),
-                  InlineKeyboardButton('🎥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎥', url=CHNL_LNK)
+                  InlineKeyboardButton('Gʀᴏᴜᴘ', url=GRP_LNK),
+                  InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                ],[
-                  InlineKeyboardButton("📀 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 📀", url="https://t.me/MM_DVD_UPDATES")
+                  InlineKeyboardButton("Bᴏᴛ Cʀᴇᴀᴛᴏʀ", url="t.me/BotX_Creator")
                  ]
                 ]
             )
@@ -1031,7 +1031,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🎥 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 🎥', url=GRP_LNK),
+            InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
@@ -1222,7 +1222,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="http://t.me/MMAssistBot")
+                    InlineKeyboardButton("Cʀᴇᴀᴛᴏʀ", url="t.me/BotX_Creator")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
