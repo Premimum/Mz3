@@ -572,7 +572,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                               InlineKeyboardButton('Gʀᴏᴜᴘ', url=GRP_LNK),
                               InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                            ],[
-                              InlineKeyboardButton("Bᴏᴛ Cʀᴇᴀᴛᴏʀ", url="t.me/BotX_Creator")
+                              InlineKeyboardButton("Bᴏᴛ Cʀᴇᴀᴛᴏʀ", url="t.me/Botx_Support")
                              ]
                             ]
                         )
@@ -620,7 +620,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   InlineKeyboardButton('Gʀᴏᴜᴘ', url=GRP_LNK),
                   InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                ],[
-                  InlineKeyboardButton("Bᴏᴛ Cʀᴇᴀᴛᴏʀ", url="t.me/BotX_Creator")
+                  InlineKeyboardButton("Bᴏᴛ Cʀᴇᴀᴛᴏʀ", url="t.me/Botx_Support")
                  ]
                 ]
             )
