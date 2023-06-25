@@ -149,8 +149,8 @@ Nᴀᴍᴇ - {}"""
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : Mz Movies
-• ᴜꜱᴇʀɴᴀᴍᴇ : @BotX_Creator
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/BotX_Creator'>Rᴏʟᴇx ᠰ TɢX</a></b>"""
+• ᴜꜱᴇʀɴᴀᴍᴇ : @MZ_MOVIESZ_PROMOTER
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/MZ_MOVIESZ_PROMOTER'>Mz Movies Admin</a></b>"""""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
