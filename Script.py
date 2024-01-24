@@ -195,7 +195,7 @@ Nᴀᴍᴇ - {}"""
 
 <b> 🔰 𝗠𝗢𝗩𝗜𝗘 𝗚𝗥𝗢𝗨𝗣 🔰
 
-      @Mallu_Movieszs
+   t.me/+X1rZDASyUlo3NTU1
  </b>"""
 
 
